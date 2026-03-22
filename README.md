@@ -57,7 +57,7 @@ IPL Dataset 2008–2025 — Historical match data,
 ## 🚀 How to Run
 
 1. Clone the repository
-   git clone https://github.com/ankit-er-mishra/ipl-stats-hub.git
+   git clone https://github.com/ankit-er-mishra/The-Pavilion.git
 
 2. Open index.html in your browser
    HTML/CSS/JS
