@@ -1,4 +1,4 @@
-# IPL Stats Hub 🏏
+# The Pavilion 🏏
 
 A web application to explore IPL cricket statistics — 
 player performance from debut year to 2025, 
@@ -9,7 +9,7 @@ team records, all-time rankings, and IPL 2026 squad info.
 
 ## Purpose 🎯
 
-IPL Stats Hub lets fans explore
+The Pavilion lets fans explore
 in-depth IPL statistics in a clean, interactive interface.
 Search any player, filter by team or season, and compare
 performance across years.
@@ -21,7 +21,7 @@ performance across years.
 
 - CricAPI — IPL matches,
   player search, match info
-  (https://cricapi.com) — Free, 100,000 calls/hour
+  (https://cricapi.com) — Free, 100 calls/day
 
 IPL Dataset 2008–2025 — Historical match data,
   player stats, team performance
