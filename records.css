@@ -1,0 +1,90 @@
+:root {
+    --primary: #ffffff;
+    --accent: #6a0dad;
+    --text-primary: #2c2828;
+    --text-secondary: #666;
+    --card-bg: #fff;
+    --border: #e0e0e0;
+    --navbar-bg: rgb(7,236,187);
+}
+
+
+body.dark {
+    --primary: #121212;
+    --card-bg: #1e1e1e;
+    --text-primary: #fff;
+    --text-secondary: #bbb;
+    --border: #333;
+    --navbar-bg: #000;
+}
+
+body {
+    font-family: sans-serif;
+    background: var(--primary);
+    color: var(--text-primary);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+    background: linear-gradient(to left, var(--navbar-bg), orange);
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.nav-links .active a {
+    border-bottom: 2px solid;
+}
+
+.records-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.record-card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    text-align: center;
+}
+
+.record-card h3 {
+    color: var(--accent);
+}
+
+.record-card h2 {
+    margin: 0.5rem 0;
+}
+
+
+.loading {
+    text-align: center;
+    padding: 2rem;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid var(--border);
+    border-top: 4px solid var(--accent);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
